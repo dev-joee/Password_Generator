@@ -76,7 +76,7 @@ You will need a C++ compiler (like G++).
 
     ```bash
     git clone https://github.com/JoeDev000/Password_Generator.git
-    cd Password-Generator
+    cd Password_Generator
     ```
 
 2.  **Compile the source code:**
