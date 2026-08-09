@@ -39,7 +39,7 @@ void passgen::processflow() {
   generatepassword();
 }
 void passgen::welcome() {
-  system("cls");
+  system("clear");
   cout << " //--------------------------------------\\\\" << endl;
   cout << " |           Password Generator           |" << endl;
   printf( " |               Pass No. %i               |\n", ++counter);
@@ -228,7 +228,7 @@ unsigned short temp;
     return;
   }
   _password[_length] = '\0';
-  cout << "\nDoen, Your Password Has Been Generated And Stored :)\n";
+  cout << "\nDone, Your Password Has Been Generated And Stored :)\n";
 }
 void passgen::display() {
   cout << endl;

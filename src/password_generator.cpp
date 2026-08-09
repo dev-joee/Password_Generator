@@ -27,14 +27,11 @@ bool firsttime = true;
     firsttime = false;
     system("clear");
     passgen p1;
-    cout << "press any key to Show Your Password...\n";
-    system("pause>0");
     p1.display();
   }
   passgen::copyright();
-  cout << "\nPress Any Key To Exit The Program\n";
-  system("pause>0");
-return 0;
+  system("bash -c 'read -n 1 -s -p \"\nPress Any Key To Exit The Program...\"'");
+  return 0;
 }
 
 //rand() % (to - from + 1) + from;
