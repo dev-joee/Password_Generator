@@ -39,23 +39,6 @@ Copy Rights Reserved for Joe Ali "Software Dev and Open Source Programmer."
 
 Press Any Key To Exit The Program
 ```
-
-## 📁 Project Structure
-
-```
-.
-│   README.md
-│   
-├───exe
-│       password_generator.exe
-│       
-├───headers
-│       password.h
-│       
-└───src
-        password_generator.cpp
-```
-
   * `password_generator.cpp`: Contains the `main` function and manages the overall program flow, allowing for multiple password generations.
   * `headers/password.h`: Defines the `passgen` class, which encapsulates the core logic for password generation, including user input for length and character types, and the generation algorithm itself.
 
@@ -66,7 +49,7 @@ Press Any Key To Exit The Program
 You will need a C++ compiler (like G++).
 
   * **G++ (GCC)**:
-      * **Linux**: Often pre-installed or installable via your distribution's package manager (e.g., `sudo apt-get install build-essential`).
+      * **Linux**: Often pre-installed or installable via your distribution's package manager (e.g., `sudo apt-get install build-essential gcc g++ gdb`).
       * **macOS**: Install Xcode Command Line Tools (`xcode-select --install`).
       * **Windows**: Install MinGW-w64 or Cygwin.
 
@@ -112,10 +95,11 @@ or click the excecutable "password_generator.exe" in the exe folder
 
 ## Author
 
-Joe Ali
-Software Developer & Open Source Programmer
-GitHub: @JoeDev000 (Replace with actual GitHub profile if different)
+Yousef Ali
+Junior Backend Developer Using ASP.NET Core
+GitHub: @dev-joee
+LinkedIn: @dev-joe
 
-Copyright (c) 2025 Joe Ali
+Copyright (c) 2025 Yousef Ali
 
 ⭐ Star this repository if you find it useful\!
