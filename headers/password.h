@@ -237,5 +237,5 @@ void passgen::display() {
 }
 void passgen::copyright() {
   cout << "\n\t\tFeel Secure, Have Fun Using My App :)\n";
-  cout << "Copy Rights Reserved for Joe Ali \"Software Dev and Open Source Programmer.\"\n";
+  cout << "Copy Rights Reserved for Yousef Ali \"Backend Developer using ASP.NET Core\"\n";
 }
