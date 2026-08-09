@@ -97,14 +97,20 @@ char randomnumber() {
   return rand() % (57 - 48 + 1) + 48;
 }
 char randomsymbol() {
-unsigned short temp = rand() % 5;
-  if(temp == 1) 
-    return rand() % (47 - 33 + 1) + 33;
-  else if (temp == 2)
-    return rand() % (64 - 58 + 1) + 58;
-  else if (temp == 3)
-    return rand() % (96 - 91 + 1) + 91;
-  return rand() % (126 - 123 + 1) + 123;
+unsigned short temp;
+char symbol;
+  do {
+    temp = rand() % 5;
+    if(temp == 1) 
+      symbol = rand() % (47 - 33 + 1) + 33;
+    else if (temp == 2)
+      symbol = rand() % (64 - 58 + 1) + 58;
+    else if (temp == 3)
+      symbol = rand() % (96 - 91 + 1) + 91;
+    else
+      symbol = rand() % (126 - 123 + 1) + 123;
+  } while(symbol == '\\' || symbol == '`');
+  return symbol;
 }
 void passgen::generatepassword() {
 unsigned short temp;

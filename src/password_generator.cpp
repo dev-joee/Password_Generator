@@ -22,7 +22,7 @@ char b = Main_getcorrectbinaryresponce(msg);
 
 int main() {
 srand(time(0));
-bool firsttime = true;
+bool firsttime = true;  
   while(Main_getbinaryresponce("Generate Another Password? (y/n) : ", firsttime)) {
     firsttime = false;
     system("clear");
